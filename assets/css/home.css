@@ -13,7 +13,8 @@ html[data-theme="light"] {
   --col-icon-dribbble: #ea4c89;
   --col-icon-linkedin: #0e76a8;
   --col-icon-medium: #00ab6c;
-  --col-icon-kaggle: #41aff3;  
+  --col-icon-kaggle: #41aff3; 
+  --col-icon-facebook: #41aff3; 
   --col-icon-instagram: rgb(201, 94, 174);
   --col-icon-mail:rgb(209, 82, 82);
   --col-icon-google-scholar:#3cba54;
@@ -34,6 +35,7 @@ html[data-theme="dark"] {
   --col-icon-linkedin: #0e76a8;
   --col-icon-medium: #00ab6c;
   --col-icon-kaggle: #41aff3;
+  --col-icon-facebook: #41aff3;
   --col-icon-instagram: rgb(201, 94, 174);
   --col-icon-mail:rgb(209, 82, 82);
   --col-icon-google-scholar:#3cba54;
@@ -127,7 +129,7 @@ body{
   overflow: hidden;
   width: var(--link-size);
   height: var(--link-size);
-  background-color: #fff;
+  background-color: rgb(255, 255, 255);
   margin: 8px;
   border-radius: 50%;
   box-shadow: 2px 5px 5px var(--shadow-col);
@@ -156,7 +158,16 @@ body{
 .socialicon.kaggle{
   color:var(--col-icon-kaggle);
 }
+.facebook i {
+  margin: auto;
+  font-size: 30px;
+  z-index: 1;
+  transition: var(--trans-props);
+}
 
+.socialicon.facebook{
+  color:var(--col-icon-facebook);
+}
 .socialicon.medium{
   color: var(--col-icon-medium);
 }
@@ -174,6 +185,11 @@ body{
 .socialicon.kaggle:after {
   background-color: #41aff3;
   box-shadow: var(--kaggle);
+}
+
+.socialicon.facebook:after {
+  background-color: #2177ac;
+  box-shadow: var(--facebook);
 }
 
 .socialicon.medium:after {
@@ -331,34 +347,21 @@ body{
 
  /*
   --------------------------
-     DRIBBBLE MICROANIMATION
+     FACEBOOK MICROANIMATION
   --------------------------
   */
   
-  .dribbble-icon{
+  .facebook-icon{
     width: 30px;
     height: 30px;
     margin-left:16px;
     margin-top: 20px;
   }
   
-  .dribbble:hover .dribbble-icon{ 
-      animation: dribbble-bounce .4s ease infinite;
+  .facebook:hover .facebook-icon{ 
+      animation: facebook-bounce .4s ease infinite;
       transform: rotate(360deg);
       transition: all 9s ease-in-out 0s;
-  }
-  
-  @keyframes dribbble-bounce {
-    from, to {
-      margin-top: 20px;
-    }
-    50% { 
-      margin-top: 15px; 
-    }
-    
-    75%{
-      margin-top: 15px;
-    }
   }
   
   /*

@@ -22,6 +22,7 @@ html[data-theme="light"] {
   --col-icon-twitter: #1da1f2;
   --col-icon-dribbble: #ea4c89;
   --col-icon-linkedin: #0e76a8;
+  --col-icon-facebook: #0e76a8;
   --col-icon-medium: #00ab6c;
   --col-icon-kaggle: #41aff3;
   --col-icon-github:#24292e;  
@@ -53,6 +54,7 @@ html[data-theme="dark"] {
   --col-icon-twitter: #1da1f2;
   --col-icon-dribbble: #ea4c89;
   --col-icon-linkedin: #0e76a8;
+  --col-icon-facebook: #0e76a8;
   --col-icon-medium: #00ab6c;
   --col-icon-kaggle: #41aff3;
   --col-icon-github:  #24292e;
@@ -403,7 +405,7 @@ html {
   padding: 0;
   text-decoration: none;
   text-align: center;
-  color: #fefefe;
+  color: #3b1da7;
   font-size: 1.5625rem;
   font-weight: normal;
   line-height: 2em;
@@ -482,6 +484,24 @@ Rotate Transition in foote Soical Icon
         }
     
   }  
+
+
+/*
+-----------------------------
+   FACEBOOK MICROANIMATION
+-----------------------------
+*/
+ 
+  .facebook:hover .facebook-icon-footer>rect{
+    fill:#9546ef;
+    animation: rect-up 0.3s linear infinite;
+  }
+
+
+  .facebook:hover .facebook-icon-footer>circle{
+    animation: bounce 0.4s linear infinite;
+  }
+
 
 /*
 -----------------------------
@@ -564,6 +584,13 @@ Rotate Transition in foote Soical Icon
   width: 30px;
 }
 
+  /* Facebook SVG micro animation */
+
+.facebook-icon-footer{
+  margin-bottom: 8px;
+  width: 30px;
+}
+
 /* instagram SVG micro animation */
 
 .instagram-icon-footer{
@@ -599,6 +626,15 @@ Rotate Transition in foote Soical Icon
 
 .rounded-social-buttons .social-button.linkedin:hover, .rounded-social-buttons .social-button.linkedin:focus {
   color: #000;
+  background: white;
+}
+
+.rounded-social-buttons .social-button.facebook {
+  background: rgb(255, 255, 255);
+}
+
+.rounded-social-buttons .social-button.facebook:hover, .rounded-social-buttons .social-button.facebook:focus {
+  color: rgb(73, 28, 236);
   background: white;
 }
 
