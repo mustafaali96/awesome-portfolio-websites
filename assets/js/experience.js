@@ -24,6 +24,20 @@ const exp = [
     time: "(Nov, 18 - Dec, 19)",
     desp:"<li>Provide assistance on 2 months Traditional Computer Vision Course offered at Sir Syed University of Engineering and Technology.</li><li>Hands-on practice on different Feature Extraction Algorithms like HOG, SIFT, SURF, and BRIEF</li>",
   },
+  {
+    title: "Data Analyst Intern Intern",
+    cardImage: "assets/images/experience-page/decima.png",
+    place: "Decima",
+    time: "(Jun, 18 - Aug, 18)",
+    desp:"<li>Developed deep learning model to automate tasks using Python.</li><li>Made changes to official Decima website.</li>",
+  },
+  {
+    title: "Enterprise Resource Planning Intern",
+    cardImage: "assets/images/experience-page/pia.jpg",
+    place: "Pakistan International Airlines",
+    time: "(Jan, 18 - Feb, 18)",
+    desp:"<li>Got real world experience to explore the relevant knowledge about ERP (Enterprise Resource Planning).</li> <li>Research related experience on SCM (Supply Chain Management) functional area.</li> <li>Detailed Technical Report on PIA ERP system, focused on CRM and SCM modules</li>",
+  },
 ];
 
 const showCards2 = () => {
@@ -62,10 +76,10 @@ document.addEventListener("DOMContentLoaded", showCards2);
 const volunteership = document.querySelector(".volunteership");
 const volunteershipcards = [
   {
-    title: "GirlScript Summer Of Code 2020",
-    cardImage: "assets/images/experience-page/1.jpg",
+    title: "Karachi.AI <br> Meetup 11",
+    cardImage: "assets/images/experience-page/karachi-ai-meetup-11.jpg",
     description:
-      "Responsible for handling the projects GirlScript App and GirlScript Website Boilerplate.",
+      "Responsible for engaging peoples from social platforms including Karachi AI Facebook, LinkedIn page.",
   },
   {
     title: "StudentCode-in 2020",
@@ -119,22 +133,28 @@ const showCards = () => {
 document.addEventListener("DOMContentLoaded", showCards);
 
 
-// Mentorship Card
+// Seminar Card
 
 
 const mentorshipcards = document.querySelector(".mentorship-cards");
 const mentor = [
   {
-    title: "HakinCode",
-    image: "assets/images/experience-page/hakin.png",
-    time: "06/2020 - 08/2020",
-    desp: "<li>It is an open source community where students and mentors can apply.</li><hr /><li>Ample amount of technologies and projects are there and we are given opportunity to work on them according to our interest and knowledge.</li>",
+    title: "International Conference on Information Science & Communication Technology 2020",
+    image: "assets/images/experience-page/icisct1.jpg",
+    time: "8th Feb 2020",
+    desp: "<li>Presented research paper at 2nd International Conference on Information Science & Communication Technology 2020 at ICCBS.</li><hr /><li>Task and Billing system developed on Salesforce Platform to automate tasks with chat integration to communicate easily.</li>",
   },
   {
-    title: "Google Summer of Code",
-    image: "assets/images/experience-page/gsoc.png",
-    time: "03/2020 - 08/2020",
-    desp: "<li>Google Summer of Code is a global program focused on introducing students to open source software development.</li><hr /><li>It is a great platform to explore new areas, maybe discover a new career path!</li>",
+    title: "Karachi.AI Ramzan Special Series: Google Cloud Platform",
+    image: "assets/images/experience-page/karachi-ai-ramzan-special.jpg",
+    time: "23rd May 2020",
+    desp: "<li>Live session of Karachi.AI in which I talked about Google Cloud Professional Data Engineering Certification.</li><hr /><li>Hands on – coding session on Google Cloud Platform, Google Vision API, Big-Query ML, Streaming data pipelines for real-time dashboards with Cloud Dataflow.</li>",
+  },
+  {
+    title: "Karachi AI Meetup # X : Delivering Data Science Applications",
+    image: "assets/images/experience-page/karachi-ai-meetup-x.jpg",
+    time: "22nd Aug 2020",
+    desp: "<li>A technical and domain knowledge based hands on – coding session where various national and international speakers from IBM, Google and Amazon discussed and presented the approach to deliver data science and machine learning applications via renowned and new cloud frameworks such as StreamLit, PyCaret, Rapid Miner, IBM Watson, Amazon AI, Microsoft Azure, Google ML and many more.</li><hr /><li>Implementation on Google Cloud Machine Learning to deliver end to end application of Data Science & ML</li>",
   },
 ];
 
