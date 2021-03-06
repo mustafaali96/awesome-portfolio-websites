@@ -82,13 +82,13 @@ const volunteershipcards = [
       "Responsible for engaging peoples from social platforms including Karachi AI Facebook, LinkedIn page.",
   },
   {
-    title: "StudentCode-in 2020",
+    title: "Bleed-AI Seminar on Computer Vision",
     cardImage: "assets/images/experience-page/2.jpg",
     description:
-      "Responsible for handling open source contributions for the project Awesome Developer Portfolio.",
+      "Responsible for student's engagement on Traditional Computer Vision seminar at Sir Syed University of Engineering and Technology.",
   },
   {
-    title: "PClub Summer Of Code 2020",
+    title: "Karachi.AI - Community of Applied AI Practitioners",
     cardImage: "assets/images/experience-page/3.jpg",
     description:
       "Mentoring for the projects Deep Pixel, AutoVaidya, Just Resume and Doc2pen.",
@@ -118,9 +118,9 @@ const showCards = () => {
   volunteershipcards.forEach(
     ({ title, cardImage, description }) =>
       (output += `        
-      <div class="card volunteerCard" style="height: 600px;width:400px">
+      <div class="card volunteerCard" style="height: 550px;width:450px">
       
-      <img src="${cardImage}" height="300" width="65" class="card-img" style="border-radius:10px">
+      <img src="${cardImage}" height="200" width="75" class="card-img" style="border-radius:10px">
       <div class="content">
           <h2 class="volunteerTitle">${title}</h2><br>
           <p class="copy">${description}</p></div>

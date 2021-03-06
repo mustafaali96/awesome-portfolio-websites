@@ -41,10 +41,10 @@ html[data-theme="light"] {
   padding-right: 4rem;
 }
 .column {
-  padding: 70px;
+  padding: 50px;
 }
 .section {
-  padding: 20px;
+  padding: 5px;
   padding-left: 0;
 }
 .heading {
@@ -52,8 +52,8 @@ html[data-theme="light"] {
   color: var(--bg-txt-img);
 }
 .sub-heading {
-  font-size: 17px;
-  margin-top: 20px;
+  font-size: 27px;
+  margin-top: 10px;
 }
 @media (max-width: 550px) {
   .main {
@@ -146,7 +146,7 @@ ul ol{
   font-weight: bold;
   color: #222;
   margin: 0.5em 0;
-  margin-top: 5rem;
+  margin-top: 1rem;
   color:var(--text);
 }
 
@@ -491,7 +491,7 @@ ul ol{
 
 .row{
   display: flex;
-  row-gap: 3em;
+  row-gap: 1em;
 }
 
 .column{
@@ -502,7 +502,7 @@ ul ol{
 }
 
 .mentorshipCard{
-  margin-bottom: 5em;
+  margin-bottom: 3em;
   border-radius: 13px;
 }
 
