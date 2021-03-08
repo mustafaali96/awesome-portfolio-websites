@@ -37,7 +37,8 @@ html[data-theme = 'dark']
 }
 
 .s2 h4{
-  margin-bottom: 1.2rem;
+  margin-bottom: 1.4rem;
+  font-size: 1.7rem;
 }
 
 .qual{
@@ -48,19 +49,23 @@ html[data-theme = 'dark']
 {
   margin-top: -0.5rem;
   font-weight: 450;
-  font-size: 2.5vh;
+  font-size: 2vh;
 }
 .s2 .card img
 {
-    height: 90%;
-    width: 90%;
+    height: 100%;
+    width: 100%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.5rem;
+    border-radius: 1.5rem;
 }
-.s2 .card, .s2 img
+.s2 .card
 {
-    border-radius: 3rem;
+    border-radius: 2rem;
 }
 
-.s2 h4,h6,p{
+.s2 h4,h6,p,a{
   color:black;
 }
 
