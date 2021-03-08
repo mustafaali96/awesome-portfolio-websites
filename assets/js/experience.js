@@ -83,33 +83,15 @@ const volunteershipcards = [
   },
   {
     title: "Bleed-AI Seminar on Computer Vision",
-    cardImage: "assets/images/experience-page/2.jpg",
+    cardImage: "assets/images/experience-page/bleed-ai.png",
     description:
       "Responsible for student's engagement on Traditional Computer Vision seminar at Sir Syed University of Engineering and Technology.",
   },
   {
     title: "Karachi.AI - Community of Applied AI Practitioners",
-    cardImage: "assets/images/experience-page/3.jpg",
+    cardImage: "assets/images/experience-page/karachi-ai-community.jpg",
     description:
-      "Mentoring for the projects Deep Pixel, AutoVaidya, Just Resume and Doc2pen.",
-  },
-  {
-    title: "Hakin-Codes",
-    cardImage: "assets/images/experience-page/4.jpg",
-    description:
-      "Mentoring for the open source projects Deeppixel, Awesome Developer Portfolios and Doc2Pen.",
-  },
-  {
-    title: "30 DaysofFlutter",
-    cardImage: "assets/images/experience-page/5.jpg",
-    description:
-      "Helping beginners from their first steps in Flutter to building fully functional cross-platform applications.",
-  },
-  {
-    title: "Garuda Hacks",
-    cardImage: "assets/images/experience-page/6.jpg",
-    description:
-      "MLH sponsored Indonesia's premier Global Virtual Hackathon on 14 - 16th August 2020.",
+      "Moderating and posting AI based content to engage peoples on Karachi.AI - Community of Applied AI Practitioners FB & LinkedIn group.",
   },
 ];
 
