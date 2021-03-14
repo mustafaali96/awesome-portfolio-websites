@@ -1,7 +1,1 @@
-au.badgr
-
-Verify: https://badgecheck.io/?url=https%3A%2F%2Fapi.badgr.io%2Fpublic%2Fassertions%2FS9nFYdauQ96oOVHTq9sJwg&identity__email=engr.mustafa.ali.mir%40gmail.com
-
-verify: https://api.au.badgr.io/public/assertions/euJWUoUlTkSqcjarrXpKRg?identity__email=ssuet.se2016%40gmail.com
-
-python for DS badge 1 : https://www.youracclaim.com/badges/62017a6f-2dd6-4ff6-a615-55d3230ad3ff
+https://verified.cv/en/verify/047942144106
